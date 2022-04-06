@@ -8,6 +8,7 @@
 .container{
   width: 100vw;
   
+  
 }
 .header{
   width: 1280px;
@@ -157,7 +158,7 @@
   color: #667085;
 }
 
-.opportunities{
+.oportunities{
   margin-top: 96px;
   margin-bottom: 96px;
   display: flex;
@@ -166,13 +167,13 @@
   align-items: center;
 }
 
-.opportunities .opportunities-desc{
+.oportunities .oportunities-desc{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.opportunities .opportunities-desc h2{
+.oportunities .oportunities-desc h2{
   font-size: 14px;
   color: #8E2424;
   font-family: 'Inter';
@@ -180,7 +181,7 @@
   margin-bottom: 16px;
   
 }
-.opportunities .opportunities-desc h4{
+.oportunities .oportunities-desc h4{
   font-size: 48px;
   font-family: 'Inter', sans-serif;
   color: #101828;
@@ -188,7 +189,7 @@
   margin-bottom: 20px; 
 }
 
-.opportunities .opportunities-desc p{
+.oportunities .oportunities-desc p{
   color: #667085;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -196,12 +197,17 @@
   margin-bottom: 64px;
 }
 
-.opportunities .list-oportunities{
+.oportunities .oportunities-desc img{
+  
+}
+
+.oportunities .list-oportunities{
   margin-top: 64px;
   display: flex;
   flex-direction: column;
   width: 768px;
-  height: 358px;
+  
+  
   
 }
 
@@ -215,7 +221,7 @@
 
 .card-desc{
   border: 1px solid #EAECF0;
-  padding: 24px 24px 28px 24px; 
+  padding: 24px 24px 28px 24px;
   border-radius: 16px;
   margin-bottom: 24px;
 
@@ -242,6 +248,14 @@
   color: #667085;
   margin-right: 24px;
 }
+
+.depositions{
+  background-color: #c31919;
+  opacity: 0.1;
+  display: flex;
+}
+
+
 
 
 
