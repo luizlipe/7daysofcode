@@ -46,7 +46,6 @@
   
 }
 .nav .menu ul li{
-  
   margin-left: 32px;
   
 }
@@ -157,4 +156,105 @@
   font-weight: 400;
   color: #667085;
 }
+
+.opportunities{
+  margin-top: 96px;
+  margin-bottom: 96px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opportunities .opportunities-desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opportunities .opportunities-desc h2{
+  font-size: 14px;
+  color: #8E2424;
+  font-family: 'Inter';
+  font-weight: 600;
+  margin-bottom: 16px;
+  
+}
+.opportunities .opportunities-desc h4{
+  font-size: 48px;
+  font-family: 'Inter', sans-serif;
+  color: #101828;
+  font-weight: 600;
+  margin-bottom: 20px; 
+}
+
+.opportunities .opportunities-desc p{
+  color: #667085;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 64px;
+}
+
+.opportunities .list-oportunities{
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+  height: 358px;
+  
+}
+
+.list-oportunities .card-oportunities h2{
+  color: #101828;  
+  margin-bottom: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card-desc{
+  border: 1px solid #EAECF0;
+  padding: 24px 24px 28px 24px; 
+  border-radius: 16px;
+  margin-bottom: 24px;
+
+}
+.card-desc h4{
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #101828;
+}
+.card-desc .card-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 32px;
+  
+  
+}
+
+.card-desc .card-info p{
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 500;
+  color: #667085;
+  margin-right: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
