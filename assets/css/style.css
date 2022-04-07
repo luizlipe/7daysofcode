@@ -6,16 +6,13 @@
 }
 
 .container{
-  width: 100vw;
-  
-  
+  width: 100%;
+  height: 100%;
 }
 .header{
   width: 1280px;
   height: 80px;
 }
-
-
 .header .nav{
   display: flex;
   justify-content: space-around;
@@ -124,16 +121,17 @@
 
 
 .metrics{
-  
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  margin-left: 32px;
+  margin-right: 32px;
+  width: 1280px;
 }
 
 .metrics .metrics-card{
   width: 280px;
-  height: 168px;
+  height: 192px;
   margin-left: 32px;
 }
 
@@ -197,18 +195,11 @@
   margin-bottom: 64px;
 }
 
-.oportunities .oportunities-desc img{
-  
-}
-
 .oportunities .list-oportunities{
   margin-top: 64px;
   display: flex;
   flex-direction: column;
-  width: 768px;
-  
-  
-  
+  width: 768px; 
 }
 
 .list-oportunities .card-oportunities h2{
@@ -236,9 +227,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 32px;
-  
-  
+  margin-top: 32px; 
 }
 
 .card-desc .card-info p{
@@ -296,6 +285,67 @@
   color: #667085;
   font-weight: 400;
   font-family: 'Inter', sans-serif;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+}
+
+.footer h2{
+  font-size: 36px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #101828;
+  margin-bottom: 20px;
+}
+.footer h4{
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  color: #667085;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.form input{
+  width: 368px;
+  height: 48px;
+  outline: 0;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #EAECF0;
+  font-family: 'Inter', sans-serif;
+  padding-left: 5px;
+  color: #3A404E;
+}
+
+.form button{
+  width: 116px;
+  height: 48px;
+  background-color: #8E2424;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 1px;
+  margin-bottom: 32px;
+}
+
+.form button:hover{
+  text-decoration: underline;
+}
+
+.footer p{
+  font-size: 16px;
+  color: #667085;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 
